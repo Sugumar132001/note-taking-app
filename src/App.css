@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, textarea {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 600px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+.note-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.note {
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  width: calc(25% - 20px);
+  box-sizing: border-box;
+}
+
+.content-container {
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+textarea {
+  width: 100%;
+  position: relative;
+  height: 100px;
+  box-sizing: border-box;
+}
+
+.picker-container {
+  position: absolute;
+  bottom: 5px;
+  display: flex;
+  
+}
+
+.picker-label {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+.flex{
+  display: flex;
+}
+
+.picker-input {
+  margin-bottom: 5px;
+  width: 80px;
+  height: 25px;
+  cursor: pointer;
+  border: none;
+  font-size: 13px;
+  background: transparent;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .note {
+      width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .note {
+      width: calc(100% - 20px);
+  }
+}
