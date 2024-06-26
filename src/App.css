@@ -90,3 +90,30 @@ textarea {
       width: calc(100% - 20px);
   }
 }
+@media (max-width:300px){
+ .flex{
+  display: flex;
+  flex-direction: column;
+ }
+
+}
+@media (max-width:350px){
+  .picker-input{
+  
+  width: 20px;
+  
+  
+  }
+ 
+ }
+ @media (max-width:400px){
+  .picker-label{
+  color: blue;
+  margin-right: 2px;
+  
+  
+  
+  }
+ 
+ }
+ 
